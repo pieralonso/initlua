@@ -18,7 +18,6 @@ vim.o.syntax = "on"             -- "syntax on"
 -- Colores del editor
 vim.cmd([[ hi Normal guibg=NONE ctermbg=NONE ]])  
 vim.keymap.set('n', '<leader>s', vim.cmd.w)
-vim.keymap.set('n', '<leader>ff', vim.cmd.Ex)
 vim.keymap.set('n', '<Esc>', vim.cmd.noh)
 
 
