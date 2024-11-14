@@ -2,7 +2,7 @@ return {
 	"nvim-treesitter/nvim-treesitter",
 	build = ":TSUpdate",
     lazy=false,
-	config = function () 
+	config = function ()
 		local configs = require("nvim-treesitter.configs")
 
 		configs.setup({
@@ -10,7 +10,7 @@ return {
                 "typescript", "query","javascript", "html", "css", "astro", "tsx" },
 			sync_install = false,
 			highlight = { enable = true },
-			indent = { enable = true },  
+			indent = { enable = true },
 		})
 	end
 
